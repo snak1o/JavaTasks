@@ -7,7 +7,6 @@ public class Loops {
         String count = sc.nextLine();
         for (int rows = 1; rows <= Integer.parseInt(count); rows++) {
             for (int spaces = 0; spaces < Integer.parseInt(count) - rows; spaces++) {
-
                 System.out.print(" ");
             }
             for (int stars = 1; stars <= rows; stars++) {
@@ -15,5 +14,6 @@ public class Loops {
             }
             System.out.println(" ");
         }
+        sc.close();
     }
 }
