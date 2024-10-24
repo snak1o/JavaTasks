@@ -18,12 +18,12 @@ public class Arrays {
         cars.set(2, "Audi");
         System.out.println("MODIFIED LIST");
         for (int i = 0; i < cars.size(); i++) {
-            System.out.println(cars.get(i));
+            System.out.println(i + ". " + cars.get(i));
         }
         System.out.println("SORTED LIST");
         cars.sort(null);
         for (int i = 0; i < cars.size(); i++) {
-            System.out.println(cars.get(i));
+            System.out.println(i + ". " + cars.get(i));
         }
     }
 }
